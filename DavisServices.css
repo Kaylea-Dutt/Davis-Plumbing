@@ -1,0 +1,78 @@
+.header {
+    text-align: center;
+    opacity: 0.8;
+    box-shadow: 0px 8px 8px -2px rgb(151, 149, 149);
+    background-image: url(https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1 {
+    font-family: oswald;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 15px;
+    padding-top: 30px;
+    background-color: rgb(151, 149, 149);
+    opacity: 0.7;
+}
+
+.box img {
+    width: 80%;
+    height: 80%;
+}
+
+.box h2 {
+    font-family: oswald;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.box p {
+    font-family: titillium web;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+html { 
+    font-size:16px; 
+}
+
+@media (min-width: 0px) {
+  p { font-size: 1rem; }
+}
+
+@media (min-width: 400px) {
+  p { font-size: calc(1rem + 1vw); }
+}
+
+@media (min-width: 1001px){
+  p { font-size: 1.75rem; }
+}
